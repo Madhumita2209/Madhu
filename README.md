@@ -1,9 +1,12 @@
 biosignalprocessing.py
+===================
 This code is used to run biosignals such as EMG and ECG
-The modules that are required to be imported inlcude numpy, matplotlib.lib, ecg submodule and emg submodule. The following are the lines of code that demonstrate the same:
-import numpy as np
-from biosppy import storage
-from biosppy.signals import ecg
-import matplotlib.pyplot as plt
-from biosppy.signals import emg
-The final output would be the raw signal that gets filtered out along with QRS complex and provides the heart beat rate in the case of ECG and the muscle activity rate in the case of EMG. 
+
+Requirements
+================
+The toolbox that is required to be installed is the Biosppy.The toolbox bundles together various signal processing and pattern recognition methods geared towards the analysis of biosignals. The modules that are required to be imported inlcude numpy, matplotlib.lib, ecg submodule and emg submodule.
+Requires version python 3.6.7 rc1 to run this code
+
+===========
+Output
+The output will be the the graphical representation of the EMG and ECG signals
